@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>pk-promo-autoplay</title>
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300..900&display=swap" rel="stylesheet">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- JS -->
+        <script defer src="js/main.js"></script>
+    </head>
+    <body>
+        <div class="tap-overlay" id="tap">
+            <div class="tap-overlay__container">
+                <img src="img/logo.png" alt=""> Коснитесь, чтобы начать воспроизведение
+            </div>
+        </div>
+        <div class="promo-caption blurred" id="caption">
+            <div class="promo-caption__container">
+                <h1 class="promo-text" id="promoText">
+                    Parastu Kandi — когда сладкое становится особенным
+                </h1>
+            </div>
+        </div>
+
+        <audio id="audio" preload="auto"></audio>
+
+    </body>
+</html>
